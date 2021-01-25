@@ -7,6 +7,14 @@ const PORT = process.env.PORT || 5000
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
+  .use(morgan('dev'))
+  .use(bodyParser.urlencoded({ extended: true }))
+  .use("/styles", sass({
+  src: __dirname + "/styles",
+  dest: __dirname + "/public/styles",
+  debug: true,
+  outputStyle: 'expanded'
+  }))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/home'))
@@ -24,7 +32,7 @@ express()
     console.log("join us")
     res.render("pages/joinus");
   });
-  .get('/meetus', async (req, res) => {
+  app.get('/meetus', async (req, res) => {
     try {
       const client = await pool.connect();
       const result = await client.query('SELECT * FROM companies');
