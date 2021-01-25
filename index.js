@@ -18,21 +18,21 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/home'))
-  app.get("/about", (req, res) => {
+  .get("/about", (req, res) => {
     console.log("getting about")
     res.render("pages/about");
-  });
+  })
   
-  app.get("/directory", (req, res) => {
+  .get("/directory", (req, res) => {
     console.log("getting directory")
     res.render("pages/directory");
-  });
+  })
   
-  app.get("/joinus", (req, res) => {
+  .get("/joinus", (req, res) => {
     console.log("join us")
     res.render("pages/joinus");
-  });
-  app.get('/meetus', async (req, res) => {
+  })
+  .get('/meetus', async (req, res) => {
     try {
       const client = await pool.connect();
       const result = await client.query('SELECT * FROM companies');
