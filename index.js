@@ -17,10 +17,10 @@ express()
   }))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/home'))
-  .get("/about", (req, res) => {
-    console.log("getting about")
-    res.render("pages/about");
+  .get('/', (req, res) => res.render('pages/index'))
+  .get('/about', (req, res) => {
+    console.log('getting about')
+    res.render('pages/about');
   })
   
   .get("/directory", (req, res) => {
