@@ -36,7 +36,7 @@ express()
     try {
       const client = await pool.connect();
       const result = await client.query('SELECT * FROM companies');
-      const results = { 'results': (result) ? result.rows : null};
+      const results = { 'company': (result) ? result.rows : null};
       res.render('pages/meetus', results );
       client.release();
     } catch (err) {
