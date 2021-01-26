@@ -9,9 +9,9 @@ express()
   .use(express.static(path.join(__dirname, 'public')))
   .use(morgan('dev'))
   .use(bodyParser.urlencoded({ extended: true }))
-  .use("/styles", sass({
-  src: __dirname + "/styles",
-  dest: __dirname + "/public/styles",
+  .use("/stylesheets", sass({
+  src: __dirname + "/stylesheets",
+  dest: __dirname + "/public/stylesheets",
   debug: true,
   outputStyle: 'expanded'
   }))
