@@ -6,14 +6,14 @@ const morgan     = require('morgan');
 const PORT = process.env.PORT || 5000
 
 express()
-  .use(morgan('dev'))
-  .use(bodyParser.urlencoded({ extended: true }))
-  .use("/stylesheets", sass({
-  src: __dirname + "/stylesheets",
+  .use("/public/stylesheets", sass({
+  src: __dirname + "/public/stylesheets",
   dest: __dirname + "/public/stylesheets",
   debug: true,
   outputStyle: 'expanded'
   }))
+  .use(morgan('dev'))
+  .use(bodyParser.urlencoded({ extended: true }))
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
