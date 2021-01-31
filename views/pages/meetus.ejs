@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet Us</title>
+  <link rel="stylesheet" href="/stylesheets/meetus.css" type="text/css" />
+  <%- include ("../partials/nav.ejs") %>
+</head>
+<body>
+  <h1 class="title">Meet us</h1>
+  <div>
+    <p>
+      Members of Parenthood Ventures' community of early stage ParentTech startups include...
+    </p>
+  </div>
+
+
+  <div class='main-grid'>
+
+    <% for (let item in company) { %>
+    <div class='companies-container'>
+        <div class="company-logo">
+          <a href= <%= company[item].company_url %> target="_blank" >
+            <img src=<%= company[item].company_logo_url %> alt= <%= company[item].company_name %> style="width:200px;">
+          </a>
+        </div>
+      <!-- <footer>
+        <div class="company-details">
+          <a href= <%= company[item].company_url %> target="_blank" ><%= company[item].company_name %></a>
+        </div>
+      </footer> -->
+    </div>
+    <% } %>
+  </div>
+</body>
+</html>

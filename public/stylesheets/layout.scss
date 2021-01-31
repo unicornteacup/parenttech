@@ -1,0 +1,49 @@
+// See: https://sass-lang.com/
+@import url('http://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+
+    color: #593493;
+    font-family: 'Varela Round', sans-serif;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  a.button {
+    padding-top: 21px;
+    padding-right: 34px;
+    padding-bottom: 21px;
+    padding-left: 34px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #fff;
+    background-color: #583493;
+    border-color: #583493;
+    text-decoration: none;
+    width: auto;
+    max-width: 120px;
+    height: 14px;
+    align-content: center;
+  }
+
+}
