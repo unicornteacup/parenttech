@@ -20,7 +20,7 @@ body {
 }
 
 body .title {
-  color: black;
+  color: #3a3a3c;
   font-family: 'Varela Round', sans-serif;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -94,8 +94,8 @@ body .main-grid .companies-container .company-logo {
 }
 
 body .main-grid .companies-container .company-logo img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 100%;
 }
 
 body .main-grid .companies-container .company-details {
