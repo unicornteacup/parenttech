@@ -14,11 +14,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #3a3a3c;
+  font-family: 'Varela Round', sans-serif;
 }
 
 body .about {
-  color: #3a3a3c;
-  font-family: 'Varela Round', sans-serif;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -60,7 +60,7 @@ body .abouttext {
 }
 
 body li {
-  font-family: Varela Round;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
