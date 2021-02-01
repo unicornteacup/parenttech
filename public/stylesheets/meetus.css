@@ -93,7 +93,7 @@ body .main-grid .companies-container .company-logo {
   height: 130px;
 }
 
-body .main-grid .companies-container .company-logo img {
+body .main-grid .companies-container .company-logo img .company-logo {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
