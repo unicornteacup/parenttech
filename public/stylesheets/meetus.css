@@ -81,6 +81,8 @@ body .main-grid .companies-container .company-logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-margin-start: 0px;
           margin-inline-start: 0px;
   -webkit-margin-end: 0px;
@@ -99,8 +101,8 @@ body .main-grid .companies-container .company-logo img {
       align-self: center;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  height: 100%;
-  width: auto;
+  max-height: 100%;
+  max-width: auto;
 }
 
 body .main-grid .companies-container .company-details {
