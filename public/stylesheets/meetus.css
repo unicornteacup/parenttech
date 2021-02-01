@@ -89,6 +89,11 @@ body .main-grid .companies-container .company-logo {
   height: 130px;
 }
 
+body .main-grid .companies-container .company-logo .company-logo a img {
+  height: 100%;
+  width: auto;
+}
+
 body .main-grid .companies-container .company-details {
   display: -webkit-box;
   display: -ms-flexbox;
