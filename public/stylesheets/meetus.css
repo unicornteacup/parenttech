@@ -37,6 +37,24 @@ body .title {
   padding-bottom: 3%;
 }
 
+body .headline {
+  color: #3a3a3c;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
 body .main-grid {
   display: -webkit-box;
   display: -ms-flexbox;
