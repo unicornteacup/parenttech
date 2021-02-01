@@ -94,15 +94,15 @@ body .main-grid .companies-container .company-logo {
 }
 
 body .main-grid .companies-container .company-logo img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   max-height: 100%;
   max-width: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 body .main-grid .companies-container .company-details {

@@ -80,11 +80,13 @@ body {
         height: 130px;
         // padding: 32px 32px;
         img{
-          display: flex;
+          // display: flex;
           align-self: center;
           box-sizing: content-box;
           max-height: 100%;
           max-width: auto;
+          display: block;
+          margin: 0 auto;
         }
 
       }
