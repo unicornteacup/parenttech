@@ -89,7 +89,6 @@ body .main-grid .companies-container .company-logo {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: auto;
-  max-width: 100%;
   height: 130px;
 }
 
