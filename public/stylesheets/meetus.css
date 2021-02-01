@@ -100,7 +100,7 @@ body .main-grid .companies-container .company-logo img .company-logo {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   max-height: 100%;
-  max-width: auto;
+  width: auto;
   display: block;
 }
 
