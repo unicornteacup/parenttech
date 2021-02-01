@@ -98,6 +98,8 @@ body .main-grid .companies-container .company-logo img {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   height: 100%;
