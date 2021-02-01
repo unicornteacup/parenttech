@@ -13,7 +13,7 @@ INSERT INTO companies (company_name, company_contact_name, contact_email, compan
 
 INSERT INTO companies (company_name, company_contact_name, contact_email, company_url, company_logo_url) VALUES('Brili', '', '', 'https://brili.com/', 'https://brili.com/assets/img/logo.png?v=4a52c64558');
 
-INSERT INTO companies (company_name, company_contact_name, contact_email, company_url, company_logo_url) VALUES('Bokk Baby', '', '', 'https://www.bokkbaby.com/', 'https://cdn.shopify.com/s/files/1/1899/9701/files/logo_white-01_dd2cb676-2c61-4ac8-a055-b2292a0fda77_100x@2x.png?v=1510825495');
+INSERT INTO companies (company_name, company_contact_name, contact_email, company_url, company_logo_url) VALUES('Bokk Baby', '', '', 'https://www.bokkbaby.com/', 'https://ibb.co/X4vp8tP');
 
 INSERT INTO companies (company_name, company_contact_name, contact_email, company_url, company_logo_url) VALUES('Hey Mirza', '', '', 'https://www.heymirza.com/', 'https://static1.squarespace.com/static/5e94142ad3c3111d9a602cf3/t/5e9dd181c5ade668767184a8/1610300120544/?format=1500w');
 
