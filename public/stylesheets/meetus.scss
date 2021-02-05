@@ -2,181 +2,181 @@
 
 // @media all and (min-width: 700px) {}
 // @media only screen and (max-width: 768px) {
-  
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Varela Round', sans-serif;
-  text-decoration: none;
-  font-size: 18px;
-
-
-  .title {
-    color: rgb(58, 58, 60);
-    font-family: 'Varela Round', sans-serif;
-    flex-direction: row;
-    align-self: center;
-    justify-self: center;
-    font-size: 30px;
-    font-weight: 400;
-    padding-top: 3%;
-    padding-bottom: 2%;
-  }
-
-  .headline {
-    color: rgb(58, 58, 60);
-    font-family: 'Varela Round', sans-serif;
-    flex-direction: row;
-    align-self: center;
-    justify-self: center;
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 3%;
-  }
-
-  // .main-grid {
-  //   align-self: center;
-  //   display: block;
-  //   margin-block-start: 1em;
-  //   margin-block-end: 1em;
-  //   margin-inline-start: 0px;
-  //   margin-inline-end: 0px;
-  //   box-sizing: border-box;
-  //   margin: auto;
-  //   max-width: 80%;
-  //   height: auto;
-  //   padding: 32px 32px;
-  //   img {
-  //     max-width:100%;
-  //     height:auto;
-  // }
-  // }
-
-  .main-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: flex-end;
-
-
-    // .individual-grid {
-    //   display:flex;
-    //   flex-direction: column;
-    //   border: 1px dashed rgb(4, 67, 71);
-    //   margin: 20px;
-    // }
-    .companies-container {
-      display:flex;
-      flex: 1 0 16%;
+  @media only screen and (min-width: 1024px) {
+    html {
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    body {
+      background-color: white;
+      display: flex;
       flex-direction: column;
-      padding:20px;
-      margin: 10px;
-      margin-bottom: 10px;
-      text-decoration: none;
+      justify-content: center;
       align-items: center;
-
-      .company-logo{
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-items: center;
-        justify-content: center;
-        // display: block;
-        // margin-block-start: 1em;
-        // margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        box-sizing: content-box;
-        // margin: auto;
-        width: 100%;
-        height: 130px;
-        // padding: 32px 32px;
-        img {
-          // display: flex;
-          align-self: center;
-          justify-self: center;
-          box-sizing: content-box;
-          height: 100%;
-          width: auto;
-          display: block;
-          overflow: visible;
-          // margin: 0 auto;
-        }
-
+      font-family: 'Varela Round', sans-serif;
+      text-decoration: none;
+      font-size: 18px;
+    
+    
+      .title {
+        color: rgb(58, 58, 60);
+        font-family: 'Varela Round', sans-serif;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 3%;
+        padding-bottom: 2%;
       }
-
-      
-      .company-details {
-        display:flex;
-        flex-direction: column;
-        align-items:center;
-        a {
-          font-family: 'Varela Round', sans-serif;
+    
+      .headline {
+        color: rgb(58, 58, 60);
+        font-family: 'Varela Round', sans-serif;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 3%;
+      }
+    
+      // .main-grid {
+      //   align-self: center;
+      //   display: block;
+      //   margin-block-start: 1em;
+      //   margin-block-end: 1em;
+      //   margin-inline-start: 0px;
+      //   margin-inline-end: 0px;
+      //   box-sizing: border-box;
+      //   margin: auto;
+      //   max-width: 80%;
+      //   height: auto;
+      //   padding: 32px 32px;
+      //   img {
+      //     max-width:100%;
+      //     height:auto;
+      // }
+      // }
+    
+      .main-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: flex-end;
+    
+    
+        // .individual-grid {
+        //   display:flex;
+        //   flex-direction: column;
+        //   border: 1px dashed rgb(4, 67, 71);
+        //   margin: 20px;
+        // }
+        .companies-container {
+          display:flex;
+          flex: 1 0 16%;
+          flex-direction: column;
+          padding:20px;
+          margin: 10px;
+          margin-bottom: 10px;
           text-decoration: none;
+          align-items: center;
+    
+          .company-logo{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+            // display: block;
+            // margin-block-start: 1em;
+            // margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            box-sizing: content-box;
+            // margin: auto;
+            width: 100%;
+            height: 130px;
+            // padding: 32px 32px;
+            img {
+              // display: flex;
+              align-self: center;
+              justify-self: center;
+              box-sizing: content-box;
+              height: 100%;
+              width: auto;
+              display: block;
+              overflow: visible;
+              // margin: 0 auto;
+            }
+    
+          }
+    
+          
+          .company-details {
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            a {
+              font-family: 'Varela Round', sans-serif;
+              text-decoration: none;
+            }
+          }
         }
       }
     }
   }
+  
 
-  @media only screen and (min-width: 420px) and (max-width: 1024px) {
-    .main-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      flex-direction: row;
-      align-items: flex-end;
+
   
-      .companies-container {
-        display:flex;
-        flex: 1 0 16%;
-        flex-direction: column;
-        padding:20px;
-        margin: 10px;
-        margin-bottom: 10px;
-        text-decoration: none;
-        align-items: center;
-  
-        .company-logo{
-          display: flex;
-          align-items: center;
-          align-content: center;
-          justify-items: center;
-          justify-content: center;
-          // display: block;
-          // margin-block-start: 1em;
-          // margin-block-end: 1em;
-          margin-inline-start: 0px;
-          margin-inline-end: 0px;
-          box-sizing: content-box;
-          // margin: auto;
-          width: 100%;
-          height: 100px;
-          // padding: 32px 32px;
-          img {
-            // display: flex;
-            align-self: center;
-            justify-self: center;
-            box-sizing: content-box;
-            height: 100%;
-            width: auto;
-            display: block;
-            overflow: visible;
-            // margin: 0 auto;
-          }
-  }
 
   @media only screen and (min-width: 320px) and (max-width: 420px) {
+    html {
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Varela Round', sans-serif;
+      text-decoration: none;
+      font-size: 18px;
+    
+    
+      .title {
+        color: rgb(58, 58, 60);
+        font-family: 'Varela Round', sans-serif;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 3%;
+        padding-bottom: 2%;
+      }
+    
+      .headline {
+        color: rgb(58, 58, 60);
+        font-family: 'Varela Round', sans-serif;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 3%;
+      }
     .main-grid {
       display: flex;
       flex-wrap: wrap;
@@ -237,4 +237,95 @@ body {
       }
     }
   }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+  
+  
+    .title {
+      color: rgb(58, 58, 60);
+      font-family: 'Varela Round', sans-serif;
+      flex-direction: row;
+      align-self: center;
+      justify-self: center;
+      font-size: 30px;
+      font-weight: 400;
+      padding-top: 3%;
+      padding-bottom: 2%;
+    }
+  
+    .headline {
+      color: rgb(58, 58, 60);
+      font-family: 'Varela Round', sans-serif;
+      flex-direction: row;
+      align-self: center;
+      justify-self: center;
+      font-size: 18px;
+      font-weight: 400;
+      padding-bottom: 3%;
+    }
+  .main-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .companies-container {
+      display:flex;
+      flex: 1 0 16%;
+      flex-direction: column;
+      padding:20px;
+      margin: 10px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      align-items: center;
+
+      .company-logo{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        // display: block;
+        // margin-block-start: 1em;
+        // margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        box-sizing: content-box;
+        // margin: auto;
+        width: 100%;
+        height: 100px;
+        // padding: 32px 32px;
+        img {
+          // display: flex;
+          align-self: center;
+          justify-self: center;
+          box-sizing: content-box;
+          height: 100%;
+          width: auto;
+          display: block;
+          overflow: visible;
+          // margin: 0 auto;
+        }
+      }
+    }
+  }
+}
 }
