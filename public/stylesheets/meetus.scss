@@ -180,6 +180,7 @@
     .main-grid {
       display: flex;
       flex-wrap: wrap;
+      flex: auto;
       justify-content: space-around;
       flex-direction: row;
       align-items: flex-end;
