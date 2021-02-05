@@ -148,7 +148,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 360x) {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
   html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
