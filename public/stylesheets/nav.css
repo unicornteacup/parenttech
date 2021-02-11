@@ -37,20 +37,28 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 50%;
+    width: 50vw;
     max-height: 50px;
     margin: 10px;
     cursor: pointer;
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-  .navbar .separation .navbuttons button {
+  .navbar .separation .navbuttons .list button {
     display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-  .navbar .separation .navbuttons li {
+  .navbar .separation .navbuttons .list li {
     list-style-type: none;
+    margin: 0 2vw;
   }
-  .navbar .separation .navbuttons li .buttons {
+  .navbar .separation .navbuttons .list li .buttons {
     font-family: 'Varela Round', sans-serif;
     font-size: 3vh;
     background-color: white;
@@ -58,7 +66,7 @@
     border-style: none;
     margin-top: 10px;
     text-decoration: none;
-    margin: 0 2vw;
+    padding: 2vw;
   }
 }
 

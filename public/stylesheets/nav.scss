@@ -25,31 +25,39 @@
       display: flex;
       justify-content: flex-end;
       flex-direction: row;
-      width: 50%;
+      width: 50vw;
       max-height: 50px;
       margin: 10px;
       cursor: pointer;
       align-self: flex-end;
 
-      button {
-        display: none;
-      }
-      li {
-        list-style-type: none;
-
-        .buttons {
-          font-family: 'Varela Round', sans-serif;
-          // font-size: 15px;
-          font-size: 3vh;
-          background-color: white;
-          color: #583493;
-          border-style: none;
-          margin-top: 10px;
-  
-          text-decoration: none;
+      .list {
+        button {
+          display: none;
+          display: flex;
+          flex-direction: row;
+        }
+        li {
+          list-style-type: none;
           margin: 0 2vw;
+  
+          .buttons {
+            font-family: 'Varela Round', sans-serif;
+            // font-size: 15px;
+            font-size: 3vh;
+            background-color: white;
+            color: #583493;
+            border-style: none;
+            margin-top: 10px;
+    
+            text-decoration: none;
+            padding: 2vw;
+            // margin: 0 2vw;
+          }
         }
       }
+
+      
 
       // form:hover {
       //   border-style: solid;
