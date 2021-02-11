@@ -1,7 +1,10 @@
 @import url("http://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @media only screen and (min-width: 361px) and (max-width: 1024px) {
   .navbar {
-    width: 100vw;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .navbar .separation {
     display: -webkit-box;
@@ -44,7 +47,7 @@
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-  .navbar .separation .navbuttons .list {
+  .navbar .separation .navbuttons ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53,14 +56,14 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .navbar .separation .navbuttons .list button {
+  .navbar .separation .navbuttons ul button {
     display: none;
   }
-  .navbar .separation .navbuttons .list li {
+  .navbar .separation .navbuttons ul li {
     list-style-type: none;
     margin: 0 2vw;
   }
-  .navbar .separation .navbuttons .list li a {
+  .navbar .separation .navbuttons ul li a {
     font-family: 'Varela Round', sans-serif;
     font-size: 3vh;
     background-color: white;
@@ -121,6 +124,10 @@
     font-size: 3vh;
     border: none;
     cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .navbar .separation .navbuttons .buttons {
     font-family: 'Varela Round', sans-serif;
