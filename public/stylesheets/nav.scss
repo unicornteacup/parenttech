@@ -32,16 +32,18 @@
       align-self: flex-end;
 
       .list {
+        display: flex;
+        flex-direction: row;
+
         button {
           display: none;
-          display: flex;
-          flex-direction: row;
         }
+
         li {
           list-style-type: none;
           margin: 0 2vw;
   
-          .buttons {
+          a {
             font-family: 'Varela Round', sans-serif;
             // font-size: 15px;
             font-size: 3vh;
