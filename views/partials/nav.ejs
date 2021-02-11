@@ -20,6 +20,7 @@
     </div>
 
     <div class='navbuttons'>
+      <button class="navbars">☰</button>
       <form action="/" >
         <button class="buttons" type="submit" value="submit">home</button>
       </form>
@@ -38,6 +39,29 @@
     </div>
   </section>
   </nav>
+
+  <script src="jquery-3.4.0.min.js"></script>
+
+<!-- script below -->
+<script type="text/javascript">
+
+$(document).ready(function(){
+  /* function called when you click of the button */
+  $("button").click(function(){
+      
+      /* this if else to change the text in the button */
+      if($("button").text() == "☰"){
+       $("button").text("🞬");
+      }else{
+        $("button").text("☰");
+      }
+    
+    /* this function toggle the visibility of our "li" elements */
+    $("li").toggle("slow");
+  });
+});
+
+</script>
 
 </html>
 
