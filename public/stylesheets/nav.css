@@ -47,23 +47,10 @@
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-  .navbar .separation .navbuttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .navbar .separation .navbuttons ul button {
+  .navbar .separation .navbuttons .navbars {
     display: none;
   }
-  .navbar .separation .navbuttons ul li {
-    list-style-type: none;
-    margin: 0 2vw;
-  }
-  .navbar .separation .navbuttons ul li a {
+  .navbar .separation .navbuttons .buttons {
     font-family: 'Varela Round', sans-serif;
     font-size: 3vh;
     background-color: white;
