@@ -34,22 +34,27 @@
       .navbars{
         display: none;
       }
-
-      .buttons {
-        font-family: 'Varela Round', sans-serif;
-        font-size: 15px;
-        background-color: white;
-        color: #583493;
-        border-style: none;
-        margin-top: 10px;
-
+      li {
         list-style-type: none;
-        text-decoration: none;
+
+        .buttons {
+          font-family: 'Varela Round', sans-serif;
+          // font-size: 15px;
+          font-size: 3vh;
+          background-color: white;
+          color: #583493;
+          border-style: none;
+          margin-top: 10px;
+  
+          text-decoration: none;
+          margin: 0 2vw;
+        }
       }
-      form:hover {
-        border-style: solid;
-        border: orangered;
-      }
+
+      // form:hover {
+      //   border-style: solid;
+      //   border: orangered;
+      // }
     }
 
 
