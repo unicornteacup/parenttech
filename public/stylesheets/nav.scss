@@ -32,19 +32,19 @@
       cursor: pointer;
       align-self: flex-end;
 
-      ul {
-        display: flex;
-        flex-direction: row;
+      // ul {
+      //   display: flex;
+      //   flex-direction: row;
 
-        button {
+        .navbars {
           display: none;
         }
 
-        li {
-          list-style-type: none;
-          margin: 0 2vw;
+        // li {
+        //   list-style-type: none;
+        //   margin: 0 2vw;
   
-          a {
+          .buttons {
             font-family: 'Varela Round', sans-serif;
             // font-size: 15px;
             font-size: 3vh;
