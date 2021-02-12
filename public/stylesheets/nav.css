@@ -125,6 +125,7 @@
     color: #583493;
     border-style: none;
     margin-top: 10px;
+    text-decoration: none;
   }
   .navbar .separation .navbuttons form:hover {
     border-style: solid;
