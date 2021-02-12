@@ -29,6 +29,9 @@
     max-width: 100%;
     margin: 10px;
   }
+  .navbar .separation .navbars {
+    display: none;
+  }
   .navbar .separation .navbuttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,16 +52,12 @@
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
   }
-  .navbar .separation .navbuttons .navbars {
-    display: none;
-  }
   .navbar .separation .navbuttons .buttons {
     font-family: 'Varela Round', sans-serif;
     font-size: 3vh;
     background-color: white;
     color: #583493;
     border-style: none;
-    margin-top: 10px;
     text-decoration: none;
     padding: 2vw;
   }
@@ -91,6 +90,18 @@
     max-width: 100%;
     margin: 10px;
   }
+  .navbar .separation .navbars {
+    display: block;
+    padding: 2vw;
+    font-size: 3vh;
+    border: none;
+    cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: none;
+  }
   .navbar .separation .navbuttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -106,17 +117,6 @@
     cursor: pointer;
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
-  }
-  .navbar .separation .navbuttons .navbars {
-    display: block;
-    padding: 2vw;
-    font-size: 3vh;
-    border: none;
-    cursor: pointer;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .navbar .separation .navbuttons .buttons {
     font-family: 'Varela Round', sans-serif;

@@ -4,12 +4,12 @@ $(document).ready(function(){
       
       /* this if else to change the text in the button */
       if($("button").text() == "☰"){
-       $("button").text("🞬");
+       $("button").text("✖");
       }else{
         $("button").text("☰");
       }
     
     /* this function toggle the visibility of our "li" elements */
-    $("li").toggle("slow");
+    $("a").toggle("slow");
   });
 });
