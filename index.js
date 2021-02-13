@@ -5,6 +5,7 @@ const sass       = require("node-sass-middleware");
 const morgan     = require('morgan');
 const PORT = process.env.PORT || 5000
 const bootstrap = require('bootstrap');
+const jquery = require('jquery');
 
 express()
   .use("/public/stylesheets", sass({
