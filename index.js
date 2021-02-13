@@ -9,6 +9,8 @@ const bootstrap = require('bootstrap');
 
 
 express()
+  .use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'))
+  app.use(express.static(__dirname + '/node_modules/bootstrap/dist'))
   .use("/public/stylesheets", sass({
   src: __dirname + "/public/stylesheets",
   dest: __dirname + "/public/stylesheets",
@@ -17,8 +19,6 @@ express()
   }))
   .use(morgan('dev'))
   .use(bodyParser.urlencoded({ extended: true }))
-  .use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'))
-  app.use(express.static(__dirname + '/node_modules/bootstrap/dist'))
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
