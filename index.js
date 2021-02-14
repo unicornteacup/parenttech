@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const sass       = require("node-sass-middleware");
 const morgan     = require('morgan');
 const PORT = process.env.PORT || 5000
-const jquery = require('jquery');
+window.jQuery = window.$ = require('jquery');
 const bootstrap = require('bootstrap');
 
 
