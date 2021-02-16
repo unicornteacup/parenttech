@@ -75,6 +75,8 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     border-right: 3%;
     border-left: 3%;
   }
@@ -120,157 +122,6 @@
             box-sizing: border-box;
     width: 100%;
     height: 100px;
-  }
-  body .main-grid .companies-container .company-logo img {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-    height: 100%;
-    width: auto;
-    display: block;
-    overflow: visible;
-  }
-  body .main-grid .companies-container .company-details {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  body .main-grid .companies-container .company-details a {
-    font-family: 'Varela Round', sans-serif;
-    text-decoration: none;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 360px) {
-  html {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
-  }
-  body {
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: 'Varela Round', sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  body .title {
-    color: #3a3a3c;
-    font-family: 'Varela Round', sans-serif;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 30px;
-    font-weight: 400;
-    padding-top: 3%;
-    padding-bottom: 2%;
-  }
-  body .headline {
-    color: #3a3a3c;
-    font-family: 'Varela Round', sans-serif;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 3%;
-  }
-  body .main-grid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-flex: 1;
-        -ms-flex: auto;
-            flex: auto;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  body .main-grid .companies-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  body .main-grid .companies-container .company-logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    justify-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-    -webkit-margin-end: 0px;
-            margin-inline-end: 0px;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-    width: 100%;
-    height: 65px;
   }
   body .main-grid .companies-container .company-logo img {
     -ms-flex-item-align: center;
@@ -381,25 +232,29 @@
             align-items: flex-end;
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
+    border-right: 3%;
+    border-left: 3%;
   }
   body .main-grid .companies-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 16%;
-            flex: 1 0 16%;
+        -ms-flex: 1 0 16vw;
+            flex: 1 0 16vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
     margin-bottom: 10px;
     text-decoration: none;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   body .main-grid .companies-container .company-logo {
     display: -webkit-box;
@@ -436,6 +291,165 @@
     width: auto;
     display: block;
     overflow: visible;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+  html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  body {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  body .title {
+    color: #3a3a3c;
+    font-family: 'Varela Round', sans-serif;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  body .headline {
+    color: #3a3a3c;
+    font-family: 'Varela Round', sans-serif;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 3%;
+  }
+  body .main-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-right: 3%;
+    border-left: 3%;
+  }
+  body .main-grid .companies-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 16vw;
+            flex: 1 0 16vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .main-grid .companies-container .company-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    width: 100%;
+    height: 65px;
+  }
+  body .main-grid .companies-container .company-logo img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    max-height: 100%;
+    max-width: 360px;
+    width: auto;
+    display: block;
+    overflow: visible;
+  }
+  body .main-grid .companies-container .company-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .main-grid .companies-container .company-details a {
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=meetus.css.map */
