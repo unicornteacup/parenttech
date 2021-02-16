@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=nav2.css.map */
+@import url("http://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .separation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  max-height: 50px;
+}
+
+.navbar .separation .logo {
+  justify-self: flex-start;
+  background-color: white;
+  height: auto;
+  max-height: 50px;
+  width: auto;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.navbar .separation .navbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar .separation .navbuttons .buttons {
+  font-family: 'Varela Round', sans-serif;
+  background-color: white;
+  color: #583493;
+}
+/*# sourceMappingURL=nav2.css.map */
