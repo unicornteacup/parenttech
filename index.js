@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000
 // const $ = require( "jquery" )( window );
 // const bootstrap = require('bootstrap');
 
-console.log("$=" + $ );
+
 
 express()
   // .use($, express.static(__dirname + '/node_modules/jquery/dist/'))
