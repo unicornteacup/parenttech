@@ -35,7 +35,7 @@
       // max-height: 70%;
       // margin: 10px;
       // cursor: pointer;
-      // align-self: flex-end;
+      align-items: flex-end;
       // box-sizing: content-box;
 
       // ul {
@@ -46,12 +46,14 @@
         //   list-style-type: none;
         //   margin: 0 2vw;
   
-          .nav-item {
+          .nav-item.nav-link {
             font-family: 'Varela Round', sans-serif;
             // font-size: 15px;
             // font-size: 3vh;
             background-color: white;
             color: #583493;
+            justify-self: flex-end;
+            
             // border-style: none;
             // // margin-top: 10px;
     
