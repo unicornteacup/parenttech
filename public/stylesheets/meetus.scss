@@ -181,6 +181,7 @@
       justify-content: space-around;
       flex-direction: row;
       align-items: flex-end;
+      box-sizing: content-box;
   
       .companies-container {
         display:flex;
@@ -283,6 +284,7 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: flex-end;
+    box-sizing: content-box;
 
     .companies-container {
       display:flex;
