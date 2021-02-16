@@ -4,16 +4,16 @@ const bodyParser = require("body-parser");
 const sass       = require("node-sass-middleware");
 const morgan     = require('morgan');
 const PORT = process.env.PORT || 5000
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window );
-const bootstrap = require('bootstrap');
+// const { JSDOM } = require( "jsdom" );
+// const { window } = new JSDOM( "" );
+// const $ = require( "jquery" )( window );
+// const bootstrap = require('bootstrap');
 
 console.log("$=" + $ );
 
 express()
-  .use($, express.static(__dirname + '/node_modules/jquery/dist/'))
-  .use(bootstrap, express.static(__dirname + '/node_modules/bootstrap/dist'))
+  // .use($, express.static(__dirname + '/node_modules/jquery/dist/'))
+  // .use(bootstrap, express.static(__dirname + '/node_modules/bootstrap/dist'))
   .use("/public/stylesheets", sass({
   src: __dirname + "/public/stylesheets",
   dest: __dirname + "/public/stylesheets",
