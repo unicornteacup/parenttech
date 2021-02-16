@@ -27,7 +27,7 @@
     //   display: none;
     // }
 
-    .navbuttons {
+    .collapse.navbar-collapse {
       display: flex;
       justify-content: flex-end;
       // flex-direction: row;
@@ -46,7 +46,7 @@
         //   list-style-type: none;
         //   margin: 0 2vw;
   
-          .buttons {
+          .nav-item {
             font-family: 'Varela Round', sans-serif;
             // font-size: 15px;
             // font-size: 3vh;

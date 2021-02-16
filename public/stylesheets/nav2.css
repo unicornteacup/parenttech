@@ -31,7 +31,7 @@
   margin: 10px;
 }
 
-.navbar .separation .navbuttons {
+.navbar .separation .collapse.navbar-collapse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@
           justify-content: flex-end;
 }
 
-.navbar .separation .navbuttons .buttons {
+.navbar .separation .collapse.navbar-collapse .nav-item {
   font-family: 'Varela Round', sans-serif;
   background-color: white;
   color: #583493;
